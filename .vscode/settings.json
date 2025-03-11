@@ -6,7 +6,7 @@
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     "**/output.css": true,
-    "**/node_modules": false
+    "**/node_modules": true
   },
   "files.associations": {
     "*.css": "tailwindcss"
