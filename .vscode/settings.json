@@ -5,6 +5,7 @@
     "**/.hg": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
+    "**/output.css": true,
     "**/node_modules": false
   },
   "files.associations": {
@@ -17,9 +18,6 @@
     "plaintext": "html"
   },
   "files.watcherExclude": {
-    "**/output.css": true
-  },
-  "files.exclude": {
     "**/output.css": true
   }
 }
