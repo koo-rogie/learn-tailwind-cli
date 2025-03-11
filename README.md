@@ -1,7 +1,5 @@
 # 테일윈드 4.0 첫 입문기
 
----
-
 ## [Tailwind CSS](./src/example-01.html)
 
 ```html
