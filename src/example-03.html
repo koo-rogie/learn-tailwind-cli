@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>notice - Tailwind CSS</title>
+    <link rel="icon" href="/assets/favicon.svg" />
+    <link
+      rel="preload"
+      as="font"
+      href="/assets/font/pretendard/woff2/PretendardVariable.woff2"
+    />
+    <link rel="stylesheet" href="/styles/output.css" />
+  </head>
+  <body>
+    <!-- 그리드 방법 -->
+    <!-- <div class="grid grid-cols-2">
+      <div class="bg-blue-600 grid grid-rows-2 grid-cols-4">
+        <p class="col-span-full">NOTICE</p>
+        <p class="col-span-[3]">
+          <svg
+            width="4"
+            height="6"
+            viewBox="0 0 4 6"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M0.75 5.5L3.25 3L0.75 0.5" stroke="#F5F5F5" />
+          </svg>
+        </p>
+        <p>
+          <svg
+            width="4"
+            height="6"
+            viewBox="0 0 4 6"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M3.25 5.5L0.75 3L3.25 0.5" stroke="#F5F5F5" />
+          </svg>
+        </p>
+      </div>
+      <div>
+        <h2>이디야 멤버스가 새로워집니다</h2>
+        <p>2020.04.25</p>
+        <span
+          >이디야멤버스에 새로운 기능이 추가됩니다. 추가되는 고객등급제,
+          이디야카드, 스마트 ...</span
+        >
+      </div>
+    </div> -->
+
+    <!-- flex -->
+    <section class="flex border-1">
+      <div class="flex flex-col justify-between bg-blue-600 p-4">
+        <p class="">NOTICE</p>
+        <div class="flex justify-end m-1">
+          <button type="button" class="p-1 border-2 border-white">
+            <svg
+              width="4"
+              height="6"
+              viewBox="0 0 4 6"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M3.25 5.5L0.75 3L3.25 0.5" stroke="#F5F5F5" />
+            </svg>
+          </button>
+          <p class="p-1 border-2 border-white">
+            <svg
+              width="4"
+              height="6"
+              viewBox="0 0 4 6"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M0.75 5.5L3.25 3L0.75 0.5" stroke="#F5F5F5" />
+            </svg>
+          </p>
+        </div>
+      </div>
+      <article class="p-4">
+        <h2 class="text-blue-800 font-bold">이디야 멤버스가 새로워집니다</h2>
+        <time class="block text-gray-300 my-[.25rem_0.75rem]">2020.04.25</time>
+        <span class="w-dvw block truncate"
+          >이디야멤버스에 새로운 기능이 추가됩니다. 추가되는 고객등급제,
+          이디야카드, 스마트 이디야멤버스에 새로운 기능이 추가됩니다. 추가되는
+          고객등급제, 이디야카드, 스마트 이디야멤버스에 새로운 기능이
+          추가됩니다. 추가되는 고객등급제, 이디야카드, 스마트
+        </span>
+      </article>
+    </section>
+  </body>
+</html>
